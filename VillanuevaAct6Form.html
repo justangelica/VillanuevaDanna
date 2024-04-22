@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<title> Form </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+		
+		body {
+		  font-family: Cambria;
+		}
+		
+		header {
+		  background-color: #FF77FF;
+		  padding: 30px;
+		  text-align: center;
+		  font-size: 35px;
+		  color: #9400D3;
+		}
+		
+		nav {
+		  float: left;
+		  width: 10%;
+		  height: 700px; 
+		  background: #F67280;
+		  padding: 20px;
+		}
+		
+		
+		nav ul {
+		  list-style-type: none;
+		  padding: 0;
+		}
+		
+		article {
+		  float: left;
+		  padding: 30px;
+		  width: 90%;
+		  background-color: #F2A2E8;
+		  height:700px; 
+		  font-size: 18px;
+		}
+		
+		section::after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		footer {
+		  background-color: purple;
+		  padding: 4px;
+		  text-align: center;
+		  color: white;
+		}
+		
+		@media (max-width: 600px) {
+			nav, article {
+			  width: 100%;
+			  height: auto;
+			}
+		  }
+		</style>
+</head>
+<body> 
+	<header>
+		<h2>Web System And Technologies IT-2C</h2>
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+			  <li><a href="index.html"><button> Profile </button></a></li><br>
+			  <li><a href="Act1Alba.html"><button> Activity 1 </button></a></li><br>
+			  <li><a href="act2Alba.html"><button> Activity 2 </button></a></li><br>
+			  <li><a href="../Web System Alba/Act3HTMLTutorial/Act3Alba.html"><button> Activity 3 </button></a></li><br>
+			  <li><a href="../Web System Alba/Act4TouristSpot/act4Alba.html"><button> Activity 4 </button></a></li><br>
+			  <li><a href="Act5Alba.html"><button> Activity 5 </button></a></li><br>
+			  <li><a href="AlbaAct6Form.html"><button> Activity 6 </button></a></li>
+			</ul>
+		  </nav>
+<article>
+	<h1  style="text-align:center;"><font color="#7D0552"> User Registration Page</font> </h1>
+
+<form>
+	<br>
+	<br>
+	<br>
+ 	<h4 align="center"><font color="#FF007F">First Name: <input type="text"size="20"> &nbsp &nbsp Last Name: <input type="text"></font> <br><br></h4>
+	
+	<h4 align="center"><font color="#FF007F">Date of Birth: <input type="text">&nbsp &nbsp Address: <input type="text"></font> <br><br></h4>
+	
+	<h3  align="center" ><font color="#7D0552"> Gender</font> </h3>
+
+	<p align="center"><font color="#FF007F"><input type="radio" name="Gender" value="Male">Male &nbsp <input type="radio" name="Gender" value="Female">Female &nbsp <input type="radio" name="Gender" value="Others">Others</font><br></p>
+	
+<center>
+	<h3><font color="#7D0552"> Course</font> </h3>
+
+	<select name="Course">
+
+	<option value="Course">Course</option>  
+	<option value="BSBA">BSBA</option>  
+	<option value="BSIT">BSIT</option>  
+	<option value="BSCHE">BSCHE</option>  
+	<option value="BSED">BSED</option>  
+	<option value="BSCE">BSCE</option>  
+	<option value="BSME">BSME</option>  
+      <option value="BSHM">BSHM</option>  
+	<option value="BSCS">BSCS</option> 
+	<option value="BSTM">BSTM</option>  
+	<option value="BSCRIM">BSCRIM</option>  
+	
+	</select> 
+	<br>
+	<br>
+	<br>
+	
+
+</center>
+	
+
+
+
+<center>
+	<form method="post" action=""name"">
+
+	<font color="#7D0552">Email: <input type="text"></font>
+	<font color="#7D0552">Password: <input type="password"> <br><br></font>
+</center>
+<center>
+	<button> <font color="#FF007F">Register</font> </button>
+</center>
+
+</article>
+</section>
+
+	
+</body>
+</html>
+
